@@ -10,10 +10,10 @@ our templates in BASIC V2 and 6502 assembler... https://www.youtube.com/watch?v=
 
 Usage examples:
 
-http://localhost:8080/<your context path>/cbm/beer/asm for the assembler version 
+http://localhost:8080/[your context path]/cbm/beer/asm for the assembler version 
 
 and
 
-http://localhost:8080/<your context path>/cbm/beer/basic for the BASIC version
+http://localhost:8080/[your context path]/cbm/beer/basic for the BASIC version
 
 You can add an additional parameter ?max=[0..99] to set the maximum number of bottles of beer.
