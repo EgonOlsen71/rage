@@ -83,7 +83,7 @@
 			JSR OUT
 			JMP PUTS
 	DONE		RTS
-		OUT		PHP
+	OUT		PHP
 			JSR SYSOUT
 			PLP
 			RTS
