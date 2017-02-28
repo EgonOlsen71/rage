@@ -3,6 +3,8 @@ package de.sixtyfour.rage.controllers;
 import de.skaliant.wax.app.ControllerBase;
 
 /**
+ * A simple controller for 99 bottles of beer as a web app.
+ * 
  * @author EgonOlsen
  *
  */

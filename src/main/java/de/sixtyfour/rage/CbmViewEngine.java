@@ -15,6 +15,8 @@ import de.skaliant.wax.core.model.Call;
 import de.skaliant.wax.core.model.ViewEngineConfig;
 
 /**
+ * A view engine for views written in BASIC V2 or 6502 assembly language.
+ * 
  * @author EgonOlsen
  *
  */
