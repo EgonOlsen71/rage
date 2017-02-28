@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  
+  <servlet>
+    <servlet-name>dispServlet</servlet-name>
+    <servlet-class>de.skaliant.wax.core.DispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>controller.mode</param-name>
+      <param-value>dynamic</param-value>
+    </init-param>
+    <init-param>
+    	<param-name>core.viewEngine</param-name>
+    	<param-value>de.sixtyfour.rage.CbmViewEngine</param-value>
+    </init-param>
+    <init-param>
+      <param-name>controller.packages</param-name>
+      <param-value>de.sixtyfour.rage.controllers</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dispServlet</servlet-name>
+    <url-pattern>/cbm/*</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
